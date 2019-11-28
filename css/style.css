@@ -17,11 +17,8 @@ ul, nav, body, h1, h2, h4, h6, p, figure {
 
 a, button { transition: all 0.3s ease; }
 
-/* Bootstrap grid system  */
-
 html {
   box-sizing: border-box;
-  -ms-overflow-style: scrollbar;
 }
 
 .beer{
@@ -49,9 +46,7 @@ html {
 }
 
 .row {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-left: -15px;
   margin-right: -15px;
@@ -72,14 +67,12 @@ html {
 }
 
 .col-12 {
-  -ms-flex: 0 0 100%;
   flex: 0 0 100%;
   max-width: 100%;
 }
 
 @media (min-width: 576px) {
   .col-sm-6 {
-    -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -87,13 +80,11 @@ html {
 
 @media (min-width: 768px) {
   .col-md-4 {
-    -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
   
   .col-md-6 {
-    -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
@@ -101,31 +92,20 @@ html {
 
 @media (min-width: 992px) {
   .col-lg-3 {
-    -ms-flex: 0 0 25%;
     flex: 0 0 25%;
     max-width: 25%;
   }
   
   .col-lg-4 {
-    -ms-flex: 0 0 33.333333%;
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
   
   .col-lg-6 {
-    -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
   }
 }
-
-/*
-  primary: #2D99CC
-  success: #319966
-  danger: #993332
-*/
-
-
 
 .tm-btn {
   display: inline-block;
@@ -364,9 +344,7 @@ p, address {
   max-width: 280px;
   margin-left: auto;
   margin-right: auto;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
